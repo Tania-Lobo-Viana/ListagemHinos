@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 try {
 
-	$conexao = new PDO("mysql:host=herokuapp.com; dbname=bdhinos", "root", "@dmmysqlifp4tuc");
+	$conexao = new PDO("mysql:host=127.0.0.1; dbname=bdhinos", "root", "@dmmysqlifp4tuc");
 	$conexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	$conexao->exec("set names utf8");
 
