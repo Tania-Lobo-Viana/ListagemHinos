@@ -88,7 +88,7 @@ if (isset($_REQUEST["act"]) && $_REQUEST["act"] == "save" && $nomeHino != "") {
             ?>
 		  />
           Pasta:
-         <input type="text" name="pasta 
+         <input type="text" name="pasta" 
 		 <?php
             // Preenche o pasta no campo pasta com um valor "value"
             if (isset($pasta) && $pasta != null || $pasta != "") {
