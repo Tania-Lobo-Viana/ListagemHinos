@@ -1,1 +1,1 @@
-web: heroku-php-apache2 ListagemHinos/
+web: heroku-php-apache2 
